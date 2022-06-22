@@ -181,7 +181,7 @@ export default {
                 search_global.value
             )
         })
-        watch(search_title, (current, previous) => {
+        watch(search_title, (current, previous) => {           
             getPosts(
                 1,
                 search_category.value,

@@ -90,6 +90,7 @@ export default {
             content: 'required|min:50',
             category_id: 'required'
         }
+        watch()
 
         // Create a form context with the validation schema
         const { validate, errors, resetForm } = useForm({ validationSchema: schema })
